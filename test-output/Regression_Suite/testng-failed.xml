@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testComponents.AnnotationTransformerClass"/>
+    <listener class-name="testComponents.ListenersClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.CallTest">
+        <methods>
+          <include name="Phi_TC_Add_Call_065_errorForAllBlankFields"/>
+          <include name="tearDown"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- tests.CallTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression_Suite] -->

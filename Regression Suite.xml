@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite" >
+<listeners>
+	<listener class-name="testComponents.AnnotationTransformerClass"></listener>
+	<listener class-name="testComponents.ListenersClass"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+         <!-- <class name="tests.LoginTest"/> -->
+         <!-- <class name="tests.ForgotPasswordTest"/> -->
+         <!-- <class name="tests.ChangePasswordTest"/> -->
+         <class name="tests.ProfileTest"/>
+         <class name="tests.CallTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
