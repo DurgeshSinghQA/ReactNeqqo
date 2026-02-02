@@ -8,9 +8,9 @@ import java.io.File;
 public class EmailUtils {
 
     public static void sendReport(String reportPath) {
-        final String fromEmail = "Durgesh.kumar@billgosling.com";
+        final String fromEmail = "Durgesh.kumar@abc.com";
         final String password = "WelcomePassword";
-        final String toEmail = "Durgesh.kumar@billgosling.com";
+        final String toEmail = "Durgesh.kumar@abc.com";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
