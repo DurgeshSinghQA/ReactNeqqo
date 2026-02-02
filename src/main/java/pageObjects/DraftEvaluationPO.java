@@ -81,7 +81,7 @@ public class DraftEvaluationPO extends UtilityClass{
 		actions.moveToElement(saveDraft).perform();
 		
 		myClick(saveAsDraftButton);
-		toBeChangeURL("https://exelonphi.neqqo.com/draft-evaluation");
+		toBeChangeURL("https://url/draft-evaluation");
 		
 		driver.get().navigate().refresh();
 		
