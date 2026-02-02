@@ -19,7 +19,7 @@ public class ChangePasswordTest extends BaseClass {
 	{
 		ChangePasswordPO cpo = new ChangePasswordPO(driver);
 		String url = cpo.redirectToChangePasswordPage();
-		String expectedURL = "https://exelonphi.neqqo.com/change-password";
+		String expectedURL = "https://expectedurl/change-password";
 		Assert.assertEquals(url, expectedURL);
 	}
 	
