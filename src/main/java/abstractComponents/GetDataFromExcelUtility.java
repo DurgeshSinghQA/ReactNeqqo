@@ -13,7 +13,7 @@ public class GetDataFromExcelUtility {
 	
 	public static String[] getData(String testCase) throws IOException
 	{
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo India\\VM Business\\New Link Testing\\TestDataCreds_VmBusiness.xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		FileInputStream fis = new FileInputStream(path);
 		
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
