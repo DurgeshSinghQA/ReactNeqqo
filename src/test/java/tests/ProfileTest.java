@@ -44,7 +44,7 @@ public class ProfileTest extends BaseClass {
 		
 		ProfilePO prof = new ProfilePO(driver);
 		String actualurl = prof.redirectToProfilePageOnClickOnMyProfile();
-		String expectedUrl  = "https://exelonphi.neqqo.com/profile" ;
+		String expectedUrl  = "url/profile" ;
 		
 		Assert.assertEquals(actualurl,expectedUrl );
 	}
@@ -55,7 +55,7 @@ public class ProfileTest extends BaseClass {
 		
 		ProfilePO prof = new ProfilePO(driver);
 		List<WebElement> actualUserDetails = prof.userDetailsShowingCorreclty();
-		String expectedUrl  = "https://exelonphi.neqqo.com/profile" ;
+		String expectedUrl  = "url/profile" ;
 		
 		int count=0;
 		String[] userDetailLabels = {"Name", "Email", "Campaign", "Skills", "Vendor", "Location"};
