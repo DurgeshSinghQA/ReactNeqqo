@@ -128,7 +128,7 @@ public class SubmitEvaluationPO extends  UtilityClass{
 		}
 		
 		//System.out.println(getBasicMetafieldsForm);
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\PHI QA Experience FORM (V1.0).xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\flename.xlsx";
 		List<String> basicMetaExcel = GetFormData.getData(path, "Basic Meta fields");
 		//System.out.println(basicMetaExcel);
 		
@@ -170,7 +170,7 @@ public class SubmitEvaluationPO extends  UtilityClass{
 		}
 		
 		System.out.println(getBasicMetafieldsForm);
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\PHI QA Experience FORM (V1.0).xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		List<String> basicMetaExcel = GetFormData.getData(path, "Basic Meta Fields Values");
 		
 		System.out.println(basicMetaExcel);
@@ -272,7 +272,7 @@ public class SubmitEvaluationPO extends  UtilityClass{
 		myClick(callIdInMyCall);
 		swtichwindow();
 		myClick(customButton);
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\PHI QA Experience FORM (V1.0).xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		List<String> customMetaExcel = GetFormData.getData(path, "Custon Meta Fields");
 		
 		for(String customname : customMetaExcel)
@@ -324,7 +324,7 @@ public class SubmitEvaluationPO extends  UtilityClass{
 		myClick(callIdInMyCall);
 		swtichwindow();
 		toBeVisible(categoriesNames);
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\PHI QA Experience FORM (V1.0).xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		List<String> categoriesExcel = GetFormData.getData(path, "Categories");
 		
 		List<WebElement> categoriesOnForm = driver.get().findElements(categoriesNames);
@@ -402,7 +402,7 @@ public class SubmitEvaluationPO extends  UtilityClass{
 		swtichwindow();
 		toBeVisible(basicMetaEvaluatorIdValue);
 	
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\PHI QA Experience FORM (V1.0).xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		List<String> attributeAndRatingExcel = GetFormData.getData(path, "Ratings");
 		for(String ratings : attributeAndRatingExcel)
 		{
@@ -469,7 +469,7 @@ public class SubmitEvaluationPO extends  UtilityClass{
 		System.out.println("Window switched");
 		toBeVisible(basicMetaEvaluatorIdValue);
 	
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\PHI QA Experience FORM (V1.0).xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		List<String> attributeAndRatingExcel = GetFormData.getData(path, "Sub-Attribute Ratings");
 		
 		for(String ratings : attributeAndRatingExcel)
@@ -542,7 +542,7 @@ public class SubmitEvaluationPO extends  UtilityClass{
 		myClick(callIdInMyCall);
 		swtichwindow();
 		myClick(customButton);
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\PHI QA Experience FORM (V1.0).xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		List<String> customMetaExcel = GetFormData.getData(path, "Custon Meta Fields");
 		
 		for(String customname : customMetaExcel)
@@ -565,7 +565,7 @@ public class SubmitEvaluationPO extends  UtilityClass{
 		
 		
 		
-		//String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\PHI QA Experience FORM (V1.0).xlsx";
+		//String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		List<String> attributeAndRatingExcel = GetFormData.getData(path, "Ratings");
 		for(String ratings : attributeAndRatingExcel)
 		{
