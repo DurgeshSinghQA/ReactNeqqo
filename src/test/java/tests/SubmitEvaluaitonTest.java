@@ -105,7 +105,7 @@ public class SubmitEvaluaitonTest extends BaseClass{
 		
 		List<String> attributesOnForm = se.allSubAttributesAreShowing();
 		String formAttributeArray[] = attributesOnForm.toArray(new String[0]);
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\PHI QA Experience FORM (V1.0).xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		List<String> attributesExcel = GetFormData.getData(path, "Subattributes");
 		String excelAttributesArray[] = attributesExcel.toArray(new String[0]);
 		
