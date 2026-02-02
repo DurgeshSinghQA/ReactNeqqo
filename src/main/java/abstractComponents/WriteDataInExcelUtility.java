@@ -16,7 +16,7 @@ public class WriteDataInExcelUtility {
 	{
 		String testCase = "Login with correct email and correct password by clicking on Login button";
 		
-		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\Neqqo BGO\\PHI\\TestDataCreds_PHI.xlsx";
+		String path = "C:\\Users\\durgesh.kumar\\Documents\\Durgesh Kumar\\filename.xlsx";
 		
 		FileInputStream fis = new FileInputStream(path);
 		
